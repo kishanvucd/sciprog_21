@@ -2,6 +2,6 @@
 1. **Trapezodial.c** - Computing the area under the curve using the Trapezodial rule 
 
 #### To compile and run the C programs
-1. Conversion.c
+1. Trapezodial.c
 - gcc Trapezodial.c -o Trapezodial_c -lm
 - ./Trapezodial_c

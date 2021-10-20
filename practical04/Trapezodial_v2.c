@@ -16,7 +16,8 @@ int main(){
   for(i=0; i<=N; i++){
     deg=i*5.0;
     rad=degtorad(deg); // Calling degtorad function as pass by value
-    TanArr[i]=tan(rad);    
+    TanArr[i]=tan(rad);
+    printf("TanArr[%d]=%f (f(x) at x=%d)\n", i, TanArr[i], i);    
   }
   
   //Find the area by trapezodial rule

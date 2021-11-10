@@ -17,7 +17,7 @@ int main(){
    scanf("%lf, %lf", &st, &en); //get input for Start and finish points from user
   
    //calculate size 
-   double a = (fabs(st) + fabs(en)/prec) + 1.;
+   double a = ((fabs(st) + fabs(en))/prec) + 1.;
    int asize = a;
 
    //array declaration
@@ -27,7 +27,7 @@ int main(){
    //calculate hyperbolic arc tangent by Maclaurin Series and by natural logarithms
    double i;
    int j = 0; 
-   for(i = st; i<= en; i+=prec){
+   for(i = st; i <= en; i += prec){
       tan1[j] = arctanh1(i, prec);
       tan2[j] = arctanh2(i);
       printf("The difference between tan1[%.3lf] and tan2[%.3lf] is %.10lf.\n", i, i, fabs(tan1[j] - tan2[j]));

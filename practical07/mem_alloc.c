@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+//Declare and Define functions
 //Dynamic memory allocation of integer array
 int* allocatearray(int n){
    int* array;

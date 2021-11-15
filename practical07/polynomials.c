@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-//function declaration
+//Declare and define functions
 //Compute factorial
 int factorial(int n){
    if(n==0)

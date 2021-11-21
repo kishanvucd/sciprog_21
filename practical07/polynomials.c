@@ -51,5 +51,13 @@ int main() {
    free(array_of_terms); //Free allocated memory of integer array
    array_of_terms = NULL; //Set pointer to null
 
+/* Here, Something strange happens with the higher order polynomials the
+ estimate gets worse because while computing factorial using factorial
+ function that returns integer so for higher factorials like 34! it
+ returns 0 because of C integer data type limitation and while computing
+ polynomials it divides by 0(return by factorial function for higher values)
+ gives infinity and difference with actual result becomes - infinity
+*/
+
    return 0;
 }

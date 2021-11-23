@@ -26,7 +26,7 @@ int main(void){
 
    printf("Please inpute two positive integers\n");
    error = scanf("%d %d",&a,&b); //get two positive integers from user
-   //checking for any error if found than terminate with error message
+   //checking for two inputs from user if not found then terminate with error message
    if(error != 2){
       printf("Please try again\n");
       return 1;
